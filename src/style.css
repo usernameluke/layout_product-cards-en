@@ -4,6 +4,7 @@ html {
   --button-colour: rgba(0, 172, 220, 1);
   font-family: Roboto, sans-serif;
   font-size: 10px;
+  font-weight: 400;
   line-height: 14px;
   color: var(--main-text-colour);
 }
@@ -39,14 +40,12 @@ body {
 .card__product-code {
   color: var(--second-text-colour);
   font-size: 10px;
-  font-weight: 400;
-  line-height: 14px; /* 140% */
+  line-height: 14px;
   margin: 0 0 16px;
 }
 
 .card__review-row {
   display: flex;
-  width: 166px;
   justify-content: space-between;
   align-items: flex-end;
   margin: 0 0 24px;
@@ -87,8 +86,7 @@ body {
   color: var(--main-text-colour);
   text-align: right;
   font-size: 10px;
-  font-weight: 400;
-  line-height: 14px; /* 140% */
+  line-height: 14px;
 }
 
 .card__price-row {
@@ -102,8 +100,7 @@ body {
 .card__price-text {
   color: var(--second-text-colour);
   font-size: 12px;
-  font-weight: 400;
-  line-height: 18px; /* 150% */
+  line-height: 18px;
 }
 
 .card__price-value {
@@ -111,7 +108,7 @@ body {
   text-align: right;
   font-size: 16px;
   font-weight: 700;
-  line-height: 18px; /* 112.5% */
+  line-height: 18px;
 }
 
 .card__buy {
@@ -127,7 +124,7 @@ body {
   text-align: center;
   font-size: 14px;
   font-weight: 700;
-  line-height: 16px; /* 114.286% */
+  line-height: 16px;
   text-transform: uppercase;
   text-decoration: none;
 }
